@@ -1,0 +1,56 @@
+body{
+	background-color:pink;
+	font-family:Arial;
+	color:#AA336A;
+	justify-content:center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+.container1{
+	display:flex;
+	flex:100%;
+	border-style:double;
+	text-align:center;
+	justify-content:center;
+	text-shadow: 2px 2px 2px white;
+	}
+	
+.container2{
+	display:flex;
+	border-style:double;
+	text-align:center;
+	justify-content:center;
+	}
+
+
+h2{
+text-decoration:underline;
+font-style: italic;
+text-shadow: 1px 1px 1px white;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+  list-style-type: circle;
+  margin: 0;
+}
+
+.box1{
+	border-style:double;
+	flex:33.3%;
+}
+
+.box2{
+	border-style:double;
+	flex:33.3%;}
+
+.box3{
+	border-style:double;
+	flex:33.3%;}
+
