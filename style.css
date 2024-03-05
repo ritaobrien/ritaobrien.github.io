@@ -1,8 +1,10 @@
 body{
-	background-color:pink;
-	font-family:Arial;
-	color:#AA336A;
+	background-color:rgb(240,255,255);
+	font-family:'Rouge Script', cursive;
+	color:#F90B6D;
 	justify-content:center;
+	.date-span;
+	.author span { background: #fdfdfd; padding: 0 10px; text-transform: uppercase; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -14,7 +16,7 @@ body{
 .container1{
 	display:flex;
 	flex:100%;
-	border-style:double;
+	border-style:single;
 	text-align:center;
 	justify-content:center;
 	text-shadow: 2px 2px 2px white;
@@ -22,7 +24,7 @@ body{
 	
 .container2{
 	display:flex;
-	border-style:double;
+	border-style:single;
 	text-align:center;
 	justify-content:center;
 	}
@@ -42,15 +44,15 @@ ul.myUL {
 }
 
 .box1{
-	border-style:double;
+	border-style:single;
 	flex:33.3%;
 }
 
 .box2{
-	border-style:double;
+	border-style:single;
 	flex:33.3%;}
 
 .box3{
-	border-style:double;
+	border-style:single;
 	flex:33.3%;}
 
