@@ -1,0 +1,79 @@
+body{
+	background-image: url("images/ritaobrien.jpg");
+	background-color:#ccc;
+	font-family: "Segoe Script";
+	font-size:20px;
+	color:white;
+	justify-content:center;
+	}
+	
+
+@media only screen and (max-width: 600px) {
+  body {
+	color:pink;
+	}
+}
+
+.container1{
+	display:flex;
+	flex:100%;
+	text-align:center;
+	justify-content:center;
+	text-shadow: 2px 2px 2px white;
+	}
+	
+.container2{
+	display:flex;
+	flex:100%;
+	text-align:center;
+	justify-content:center;
+	text-shadow: 2px 2px 2px white;
+	padding: 70px;
+	}
+	
+.container3{
+	display:flex;
+	flex:100%;
+	text-align:center;
+	justify-content:center;
+	}
+
+.container4{
+	display:flex;
+	flex:100%;
+	text-align:center;
+	justify-content:center;
+	}
+
+
+h2{
+//text-decoration:underline;
+text-shadow: 1px 1px 1px white;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+  list-style-type: circle;
+  margin: 0;
+}
+
+.box1{
+	flex:33.3%;
+}
+
+.box2{
+	flex:33.3%;}
+
+.box3{
+	flex:33.3%;}
+	
+.footer {
+		position: fixed;
+		left: 0;
+		bottom: 100;
+		width: 100%;
+		text-align: center;
+		flex:33.3%;
+		}
+
