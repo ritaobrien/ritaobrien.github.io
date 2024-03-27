@@ -1,42 +1,33 @@
 body{
     background-color: #687A8F;
     color:#152238;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
-    display:flex;
-    flex-direction: column;
+    
 }
 
 .webForm{
-font-size:30px;
-
+font-size:15px;
 color:#152238;
-display:flex;
-flex-direction: column;
 align-items: center;
-padding-top:50px;
-justify-content: center;
-
 }
 
 #formName{
     border-color: white;
     border-radius:20px;
-    padding-left: 20px;
-    margin-left:30px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px;
 }
 
 #formEmail{
     border-color: white;
     border-radius:20px;
-    padding-left: 20px;
-    margin-left:30px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px;
 
 }
 
@@ -45,7 +36,7 @@ color:white;
 background-color:#F7882F;
 border-color: white;
 border-radius: 20px;
-font-size:30px;
+font-size:20px;
 cursor:pointer;
 text-align: center;
 }
