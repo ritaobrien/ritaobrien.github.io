@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction:column;
+    color:#152238;
+    margin:0;
+    background-color:#687A8F;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size:40px;
+}
+
+
+#Result{
+    font-size:40px;
+    color:white;
+    margin:0 20px;
+    font-weight: bold;
+    
+}
+
+#Rock{
+    font-size:40px;
+    color:white;
+    background-color: #152238;
+    border-radius:20px;
+    border-color: white;
+    align-items: center;
+    margin:0 20px;
+    cursor:pointer;
+   }
+
+#Rock:hover{
+    background-color:#F7882F;
+    color:#152238;
+}
+
+
+
+#Paper{
+    font-size:40px;
+    color:white;
+    background-color: #687A8F; 
+    border-radius:20px;
+    border-color: white;
+    align-items: center;
+    margin:0 20px;
+    cursor:pointer;
+}
+
+#Paper:hover{
+    background-color:#F7882F;
+    color:#152238;
+}
+
+
+#Scissors{
+    font-size:40px;
+    color:white; 
+    background-color: #F7C331;
+    border-radius:20px;
+    border-color: white;
+    align-items: center;
+    cursor:pointer;
+}
+
+#Scissors:hover{
+    background-color: #F7882F;
+    color:#152238;
+}
