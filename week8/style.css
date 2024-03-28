@@ -33,7 +33,7 @@ h5{
 }
 
 #Rock{
-    font-size:30px;
+    font-size:25px;
     color:white;
     background-color: #152238;
     border-radius:20px;
@@ -51,7 +51,7 @@ h5{
 
 
 #Paper{
-    font-size:30px;
+    font-size:25px;
     color:white;
     background-color: #DCC7AA; 
     border-radius:20px;
@@ -68,7 +68,7 @@ h5{
 
 
 #Scissors{
-    font-size:30px;
+    font-size:25px;
     color:white; 
     background-color: #F7C331;
     border-radius:20px;
